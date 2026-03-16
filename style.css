@@ -1,0 +1,179 @@
+ /* Variables de color estilo profesional/LinkedIn */
+ :root {
+     --color-fondo: #f3f2ef;
+     --blanco: #ffffff;
+     --color-Primario-Azul: #0a66c2;
+     --color-hover: #004182;
+     --text-dark: #000000;
+     --texto-gris: #666666;
+     --color-borde: #e0e0e0;
+     --fondo-etiqueta: #eef3f8;
+     --texto-etiqueta: #0a66c2;
+ }
+
+ /* Reseteo básico y tipografía */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+ }
+
+ body {
+     background-color: var(--color-fondo);
+     color: var(--text-dark);
+     line-height: 1.5;
+     padding-bottom: 40px;
+ }
+
+ /* Estilos generales de enlaces */
+ a {
+     color: var(--Color-Primario-Azul);
+     transition: color 0.2s ease;
+ }
+
+ a:hover {
+     color: var(--color-hover);
+     text-decoration: underline;
+ }
+
+ /* Estructura Principal */
+ .contenedor {
+     max-width: 1128px;
+     margin: 0 auto;
+     padding: 20px;
+     display: grid;
+     grid-template-columns: 3fr 1fr;
+     gap: 24px;
+ }
+
+ /* Tarjetas (Cards) */
+ .tarjeta {
+     background-color: var(--blanco);
+     border-radius: 8px;
+     border: 1px solid var(--border-color);
+     padding: 24px;
+     margin-bottom: 16px;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+ }
+
+ .tarjeta h2 {
+     font-size: 20px;
+     margin-bottom: 16px;
+     color: var(--text-dark);
+     border-bottom: 1px solid var(--border-color);
+     padding-bottom: 8px;
+ }
+
+ /* Sección Cabecera (Hero) */
+ .seccion-cabecera {
+     display: flex;
+     align-items: center;
+     gap: 24px;
+ }
+
+ .foto-perfil {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     object-fit: cover;
+     border: 4px solid var(--blanco);
+     box-shadow: 0 0 0 2px var(--border-color);
+ }
+
+ .info-cabecera h1 {
+     font-size: 24px;
+     margin-bottom: 4px;
+ }
+
+ .info-cabecera h3 {
+     font-size: 16px;
+     color: var(--texto-gris);
+     font-weight: 400;
+     margin-bottom: 12px;
+ }
+
+ .lista-contacto {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 16px;
+     font-size: 14px;
+     color: var(--texto-gris);
+ }
+
+ /* Enlaces de contacto sutiles */
+ .enlace-contacto {
+     color: var(--texto-gris);
+ }
+
+ .enlace-contacto:hover {
+     color: var(--Color-Primario-Azul);
+ }
+
+ /* Sección de Experiencia, Educación y Proyectos */
+ .item-cronologia {
+     margin-bottom: 24px;
+ }
+
+ .item-cronologia:last-child {
+     margin-bottom: 0;
+ }
+
+ .item-cronologia h4 {
+     font-size: 16px;
+     color: var(--text-dark);
+ }
+
+ .item-cronologia .fecha {
+     font-size: 14px;
+     color: var(--texto-gris);
+     margin-bottom: 8px;
+ }
+
+ .item-cronologia p {
+     font-size: 14px;
+     color: var(--text-dark);
+     margin-bottom: 4px;
+ }
+
+ /* Estilos específicos para la tarjeta de Proyectos */
+ .enlace-proyecto {
+     display: inline-flex;
+     align-items: center;
+     gap: 4px;
+     font-weight: 600;
+ }
+
+ /* Sección Sidebar (Habilidades, etc.) */
+ .contenedor-etiquetas {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 8px;
+ }
+
+ .etiqueta {
+     background-color: var(--fondo-etiqueta);
+     color: var(--texto-etiqueta);
+     font-size: 13px;
+     font-weight: 600;
+     padding: 4px 12px;
+     border-radius: 16px;
+     border: 1px solid transparent;
+     transition: all 0.2s ease;
+ }
+
+ .etiqueta:hover {
+     background-color: var(--blanco);
+     border-color: var(--Color-Primario-Azul);
+ }
+
+ .lista-basica {
+     list-style-position: inside;
+     font-size: 14px;
+     color: var(--text-dark);
+ }
+
+ .lista-basica li {
+     margin-bottom: 6px;
+ }

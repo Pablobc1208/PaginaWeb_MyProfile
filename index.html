@@ -4,147 +4,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Profesional - Pablo Barrera Corbacho</title>
+    <title>Pablo Barrera | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/logo_personal.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="barra-navegacion">
+        <div class="logo">P<span>B</span></div>
+        <ul class="enlaces-nav">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+    </nav>
 
-    <div class="contenedor">
-        <main>
-            <section class="tarjeta seccion-cabecera">
-                <img src="img/ChatGPT Image 20 ene 2026, 13_32_11.png" alt="Foto Perfil" class="foto-perfil">
-                <div class="info-cabecera">
-                    <h1>Pablo Barrera Corbacho</h1>
-                    <h3>Técnico en Sistemas Informáticos y Redes | Desarrollador Web Junior</h3>
-                    <ul class="lista-contacto">
-                        <li><strong>Teléfono:</strong> <a class="enlace-contacto">695 30 46
-                                44</a>
-                        </li>
-                        <li><strong>Email:</strong> <a href="mailto:pablobarreracorbacho10@gmail.com"
-                                class="enlace-contacto">pablobarreracorbacho10@gmail.com</a></li>
-                        <li><strong>Ubicación:</strong> Alcalá De Guadaira</li>
-                    </ul>
+    <header id="inicio" class="portada">
+        <div class="contenido-portada">
+            <h1 class="aparecer">Hola, soy <span class="destacado">Pablo</span></h1>
+            <h2 class="deslizar-arriba">Desarrollador Web Junior & Técnico en Sistemas</h2>
+            <p class="aparecer retraso-1">Construyendo soluciones tecnológicas y creando experiencias digitales
+                atractivas.
+            </p>
+            <div>
+                <a href="#proyectos" class="btn btn-principal">Ver mis proyectos</a>
+                <a href="mailto:pablobarreracorbacho10@gmail.com" class="btn btn-secundario">Contactar</a>
+            </div>
+        </div>
+        <div>
+            <img src="img/ChatGPT Image 20 ene 2026, 13_32_11.png" alt="Pablo Barrera Corbacho" class="img-portada">
+        </div>
+    </header>
+
+    <section id="sobre-mi" class="seccion">
+        <h2 class="titulo-seccion">Sobre mí</h2>
+        <div class="contenido-sobre-mi">
+            <p>Soy técnico en Sistemas Informáticos y Redes, y trabajo actualmente como administrador de sistemas. Me
+                considero una persona perseverante, curiosa y con una gran pasión por la tecnología. Mi objetivo es
+                seguir aprendiendo y creciendo continuamente en el ámbito del desarrollo de software y sistemas.</p>
+        </div>
+    </section>
+
+    <section id="proyectos" class="seccion">
+        <h2 class="titulo-seccion">Proyectos Destacados</h2>
+        <div class="cuadricula-proyectos">
+            <article class="tarjeta-proyecto">
+                <div class="contenido-proyecto">
+                    <span class="tecnologias-proyecto">HTML • CSS • JavaScript</span>
+                    <h3 class="titulo-proyecto">VibeCoding</h3>
+                    <p class="desc-proyecto">Desarrollo de una página web temática sobre Fórmula 1, diseñada para
+                        experimentar de primera mano el desarrollo web y aprender JavaScript dinámico.</p>
+                    <a href="https://github.com/Pablobc1208" target="_blank" class="enlace-proyecto">Ver en GitHub →</a>
                 </div>
-            </section>
-
-            <section class="tarjeta">
-                <h2>Sobre mí</h2>
-                <p>Soy técnico en Sistemas informáticos y Redes, trabajo actualmente en una empresa como administrador
-                    de sistemas. Me considero una persona perseverante, curiosa y con ganas de seguir aprendiendo y
-                    creciendo en el ámbito TI.</p>
-            </section>
-
-            <section class="tarjeta">
-                <h2>Proyectos Destacados (GitHub)</h2>
-
-                <div class="item-cronologia">
-                    <h4>
-                        <a href="https://github.com/Pablobc1208" target="_blank" class="enlace-proyecto">VibeCoding</a>
-                    </h4>
-                    <div class="fecha">HTML / CSS / JavaScript</div>
-                    <p>Desarrollo de una página web de prueba sobre formula 1. Esta pagina fue diseñada para conocer de
-                        primera mano como funciona una página web.
-                        el desarrollo de una pagina VibeCoding me permitio aprender JavaScript.
-                    </p>
+            </article>
+            <article class="tarjeta-proyecto">
+                <div class="contenido-proyecto">
+                    <span class="tecnologias-proyecto">Java • POO • Swing</span>
+                    <h3 class="titulo-proyecto">Videojuego en Java</h3>
+                    <p class="desc-proyecto">Videojuego estilo RPG desarrollado en Java. Aplica principios de
+                        Programación Orientada a Objetos, con interfaz gráfica (Swing), sistema de inventario y
+                        mecánicas de combate.</p>
+                    <a href="https://github.com/Pablobc1208" target="_blank" class="enlace-proyecto">Ver en GitHub →</a>
                 </div>
+            </article>
+        </div>
+    </section>
 
-                <div class="item-cronologia">
-                    <h4>
-                        <a href="https://github.com/Pablobc1208" target="_blank" class="enlace-proyecto">VideoJuego en
-                            Java</a>
-                    </h4>
-                    <div class="fecha">Java / Programación Orientada a Objetos</div>
-                    <p>Videojuego desarrollado en Java estilo rpg, aplicando principios POO para videojuegos, interfaz
-                        grafica con swing, sistema de inventario y combate.</p>
+    <section id="experiencia" class="seccion">
+        <h2 class="titulo-seccion">Experiencia y Educación</h2>
+        <div class="linea-tiempo">
+            <div class="item-linea-tiempo">
+                <div class="punto-linea-tiempo"></div>
+                <div class="contenido-linea-tiempo">
+                    <h3>Soporte Técnico y Administrador de Sistemas</h3>
+                    <span class="fecha-linea-tiempo">Directo Telmark | Mar 2025 - Actual</span>
+                    <p>Administración de servidores corporativos, resolución de incidencias en ordenadores,
+                        mantenimiento preventivo y configuración de sistemas interconectados operativos.</p>
                 </div>
-            </section>
-
-            <section class="tarjeta">
-                <h2>Experiencia laboral</h2>
-
-                <div class="item-cronologia">
-                    <h4>Soporte Técnico y Administrador de Sistemas - Directo Telmark</h4>
-                    <div class="fecha">Marzo 2025 - Actual</div>
-                    <p>Atención y resolución de incidencias técnicas en ordenadores, tanto de hardware como de software.
-                    </p>
-                    <p>Mantenimiento preventivo, eliminación de virus, optimización del sistema. Formateo de equipos,
-                        instalación y configuración de sistemas operativos.</p>
-                    <p>Encargado de la administración y soporte de servidores corporativos, incluyendo su configuración,
-                        actualización, monitoreo y respaldo, garantizando la continuidad operativa del sistema.</p>
-                    <p>Puesta a punto de ordenadores, creación de cuentas de usuario, configuración de accesos,
-                        instalación de aplicaciones y conexión a redes.</p>
+            </div>
+            <div class="item-linea-tiempo">
+                <div class="punto-linea-tiempo"></div>
+                <div class="contenido-linea-tiempo">
+                    <h3>CFGS Desarrollo Aplicaciones Web</h3>
+                    <span class="fecha-linea-tiempo">Ilerna Sevilla | Sep 2025 - Actual</span>
+                    <p>Formación superior especializada en desarrollo de aplicaciones web full-stack enfocado a software
+                        moderno.</p>
                 </div>
-
-                <div class="item-cronologia">
-                    <h4>Atención al Cliente - El Callejón Bar Burger</h4>
-                    <div class="fecha">Enero 2025 - Marzo 2026</div>
-                    <p>Atención al cliente, gestión de pedidos y stock, trabajo en equipo y adaptación a entornos de
-                        alta presión.</p>
+            </div>
+            <div class="item-linea-tiempo">
+                <div class="punto-linea-tiempo"></div>
+                <div class="contenido-linea-tiempo">
+                    <h3>Atención al Cliente</h3>
+                    <span class="fecha-linea-tiempo">El Callejón Bar Burger | Ene 2025 - Mar 2026</span>
+                    <p>Gestión de pedidos, control de stock y atención al público en un entorno exigente y de alta
+                        demanda.</p>
                 </div>
-            </section>
-
-            <section class="tarjeta">
-                <h2>Datos académicos</h2>
-
-                <div class="item-cronologia">
-                    <h4>CFGS Desarrollo Aplicaciones Web</h4>
-                    <div class="fecha">Ilerna Sevilla | Septiembre 2025 - Actual</div>
+            </div>
+            <div class="item-linea-tiempo">
+                <div class="punto-linea-tiempo"></div>
+                <div class="contenido-linea-tiempo">
+                    <h3>CFGM Sistemas Microinformáticos y Redes</h3>
+                    <span class="fecha-linea-tiempo">IES Cristóbal de Monroy | Sep 2022 - Jun 2025</span>
+                    <p>Titulación técnica en montaje y mantenimiento de equipos, sistemas operativos y despliegues en
+                        redes locales.</p>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <div class="item-cronologia">
-                    <h4>CFGM Sistemas Microinformáticos y Redes</h4>
-                    <div class="fecha">IES Cristóbal de Monroy | Septiembre 2022 - Junio 2025</div>
+    <section id="habilidades" class="seccion">
+        <h2 class="titulo-seccion">Mis Habilidades</h2>
+        <div class="contenedor-habilidades">
+            <div class="categoria-habilidades">
+                <h3>Hard Skills</h3>
+                <div class="cuadricula-habilidades">
+                    <span class="etiqueta-habilidad">Java</span>
+                    <span class="etiqueta-habilidad">Python</span>
+                    <span class="etiqueta-habilidad">JavaScript</span>
+                    <span class="etiqueta-habilidad">HTML5 / CSS3</span>
+                    <span class="etiqueta-habilidad">PHP</span>
+                    <span class="etiqueta-habilidad">Git</span>
+                    <span class="etiqueta-habilidad">POO</span>
+                    <span class="etiqueta-habilidad">Windows Server</span>
+                    <span class="etiqueta-habilidad">Linux</span>
                 </div>
-            </section>
-        </main>
-
-        <aside>
-            <section class="tarjeta">
-                <h2>Hard Skills</h2>
-                <div class="contenedor-etiquetas">
-                    <span class="etiqueta">POO</span>
-                    <span class="etiqueta">Java</span>
-                    <span class="etiqueta">Python</span>
-                    <span class="etiqueta">JavaScript</span>
-                    <span class="etiqueta">HTML/CSS</span>
-                    <span class="etiqueta">PHP</span>
-                    <span class="etiqueta">Git</span>
-                    <span class="etiqueta">Windows Server</span>
-                    <span class="etiqueta">Linux</span>
+            </div>
+            <div class="categoria-habilidades">
+                <h3>Soft Skills & Otros</h3>
+                <div class="cuadricula-habilidades">
+                    <span class="etiqueta-habilidad alternativa">Resolución de problemas</span>
+                    <span class="etiqueta-habilidad alternativa">Trabajo en equipo</span>
+                    <span class="etiqueta-habilidad alternativa">Adaptabilidad</span>
+                    <span class="etiqueta-habilidad alternativa">Buena comunicación</span>
+                    <span class="etiqueta-habilidad alternativa">Inglés B1</span>
                 </div>
-            </section>
+            </div>
+        </div>
+    </section>
 
-            <section class="tarjeta">
-                <h2>Soft Skills</h2>
-                <div class="contenedor-etiquetas">
-                    <span class="etiqueta">Buena comunicación</span>
-                    <span class="etiqueta">Resolución de problemas</span>
-                    <span class="etiqueta">Trabajo en equipo</span>
-                    <span class="etiqueta">Adaptabilidad</span>
-                </div>
-            </section>
-
-            <section class="tarjeta">
-                <h2>Idiomas</h2>
-                <ul class="lista-basica">
-                    <li>Castellano (Nativo)</li>
-                    <li>Inglés (B1)</li>
-                </ul>
-            </section>
-
-            <section class="tarjeta">
-                <h2>Más información</h2>
-                <ul class="lista-basica">
-                    <li>Permiso B</li>
-                    <li>Vehículo Propio</li>
-                    <li>Disponibilidad Total</li>
-                </ul>
-            </section>
-        </aside>
-    </div>
-
+    <footer>
+        <div class="enlaces-pie">
+            <a href="mailto:pablobarreracorbacho10@gmail.com" class="enlace-icono">
+                <img src="img/gmail.png" alt="Email" class="icono-pie">
+            </a>
+            <a href="https://github.com/Pablobc1208" target="_blank" class="enlace-icono">
+                <img src="img/github.png" alt="GitHub" class="icono-pie">
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
